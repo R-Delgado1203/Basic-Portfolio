@@ -10,42 +10,50 @@
 </head>
 
 <body>
-    <div class=header>
-        <h1 class="name">Rolando Delgado Jr.</h1>
-        <!--nav bar-->
-        <div class="navbar">
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+    <!--<Top heading/navigation bar>-->
+    <header>
+        <div class="topContent">
+            <div class="name">
+                <div class="logo">Rolando Delgado Jr.</div>
+            </div>
+            <nav class="navBar">
+                <ul>
+                    <li><a href="index.html" >About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#" class="current">Contact</a></li>
+                </ul>
             </nav>
         </div>
-    </div>
+    </header>
+    <!--</Top heading/navigation bar>-->
     
-    <h2>Contact</h2>
-    <!--contact form-->
-    <div id="contactForm">        
-        <form name="emailForm" method="POST" mailto:"r.delgado1203@gmail.com" enctype="text/plain">
-            Name:
-                <br>
-            <input type="text" name="name">
-                <br>
-            E-mail:
-                <br>
-            <input type="text" name="email">
-                <br>
-            Message:
-                <br>
-            <input type="text" name="message">
-                <br>
-            <input type="submit" value="send">        
-        </form>
-
-
-
+    <!--<Main content of page/contact form>-->
+    <div class="mainContent">
+        <div class="info"> 
+            <h1 class="pageName">Contact</h1>
+            <form class="contactForm" name="emailForm" method="POST" mailto:"r.delgado1203@gmail.com" enctype="text/plain">
+                Name:
+                    <br>
+                <input type="text" name="name">
+                    <br>
+                E-mail:
+                    <br>
+                <input type="text" name="email">
+                    <br>
+                Message:
+                    <br>
+                <textarea rows="10" cols="40" name="message" id="message"></textarea>
+                    <br>
+                <input type="submit" value="send">        
+            </form>
+        </div>
     </div>
+    <!--</Main content of page/contact form>-->
 
-
+    
+    <footer>
+            Copyright 2018
+    </footer>
 
 
 
