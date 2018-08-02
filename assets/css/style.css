@@ -27,7 +27,10 @@ a {
 
 /* header/navBar */
 header {
-	width: 100.4%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
 	height: auto;
 	border-bottom: 2px solid #cccccc;
     background-color: #ffffff;    
@@ -105,7 +108,7 @@ header {
 .info {
 	display: inline-block;
 	width: 875px;
-	margin: 80px 0;
+	margin: 150px auto auto auto;
 	padding: 50px;
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
@@ -183,12 +186,11 @@ img.aboutPhoto {
 footer {
 	position: absolute;
 	left: 0;
-	bottom: 0;
-	width: 95.991%;
-	padding: 3em;
+	width: 95%;
+	padding: 2.989em;
 	text-align: center;
-	font-size: 0.8em;
 	color: #cccccc;
 	background-color: #666666;
 	border-top: 7px solid #4aaaa5;
+	margin-top: 23px;
 }
