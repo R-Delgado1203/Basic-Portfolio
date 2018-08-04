@@ -25,7 +25,7 @@ a {
 	text-decoration: none;
 }
 
-/* header/navBar */
+/*header/navBar*/
 header {
 	position: absolute;
 	top: 0;
@@ -97,7 +97,7 @@ header {
 }
 
 
-/* Main Content Area */
+/*main*/
 .mainContent {
 	width: 960px;
 	clear: both;
@@ -135,7 +135,7 @@ img.aboutPhoto {
 	height: 330px;
 }
 
-/* Portfolio Page */
+/*portfolio*/
 .portfolioEntry {
 	display: inline-block;
 	position: relative;
@@ -155,7 +155,7 @@ img.aboutPhoto {
 	z-index: 1000;
 }
 
-/* Contact Page */
+/*contact*/
 .contactForm {
     width: 487px;
 }
@@ -182,9 +182,9 @@ img.aboutPhoto {
 	font-size: 1em;
 }
 
-/* Footer */
+/* footer */
 footer {
-	position: absolute;
+	position: sticky;
 	left: 0;
 	width: 95%;
 	padding: 2.989em;
@@ -192,5 +192,5 @@ footer {
 	color: #cccccc;
 	background-color: #666666;
 	border-top: 7px solid #4aaaa5;
-	margin-top: 23px;
+	margin-top: 119px;
 }
